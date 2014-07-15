@@ -12,7 +12,7 @@ $navbar-default-brand-hover-color: #16a085;
 
 $brand-primary: #1abc9c;
 $jumbotron-bg: #e0fbf0;
-$navbar-height: 60px;
+$navbar-height: 40px;
 
 @import 'bootstrap';
 
@@ -26,7 +26,11 @@ $navbar-height: 60px;
    font-family: 'Open Sans';
    font-size: 2em;
    font-weight: 700;
-   font-style:italic;
+   font-style: italic;
+}
+
+.navbar-default {
+	border-color: #caf8ef;
 }
 
 .navbar-default .navbar-toggle {
