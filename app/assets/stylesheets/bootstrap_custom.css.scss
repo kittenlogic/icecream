@@ -16,6 +16,12 @@ $navbar-height: 60px;
 
 @import 'bootstrap';
 
+.alert-papaya {
+	background-color: #f7e9d9;
+	border-color: #ff9090;
+	color: #ff8f6c;
+}
+
 .navbar-brand {
    font-family: 'Open Sans';
    font-size: 2em;
