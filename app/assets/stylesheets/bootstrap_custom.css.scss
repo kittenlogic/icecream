@@ -20,8 +20,21 @@ $navbar-height: 60px;
    font-family: 'Open Sans';
    font-size: 2em;
    font-weight: 700;
-   font-style:italic
+   font-style:italic;
+}
 
+.navbar-default .navbar-toggle {
+   background-color: #caf8ef;
+   border-color: #caf8ef; 
+}
+
+.navbar-default .navbar-toggle:hover {
+   background-color: #caf8ef;
+   border-color: #00ffcc;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: #1abc9c;
 }
 
 .center {
@@ -34,7 +47,70 @@ $navbar-height: 60px;
 
 .jumbotron h1,
 .jumbotron h3 {
-	color: #1abc9c;;
+	color: #1abc9c;
+}
+
+/* sign up and sign in form styles */
+
+.panel {
+	background-color: #e5fff0;
+}
+
+.panel-default {
+	border-color: #adf4ef;
+}
+
+.panel-default > .panel-heading {
+	background-color: #cbffea;
+	border-color: #cbffea;
+	color: #00ffcc;
+}
+
+.form-group label,
+.form-group i {
+	color: #99ffeb;
+}
+
+.form-control {
+	background-color: #d0fff2;
+	color: #13fdd8;
+	border: 1px solid #2dffc4;
+}
+
+.form-control:focus {
+    border-color: #2dffc4;
+}
+
+.form-group .btn-primary {
+	background-color: #99ffeb;
+	border-color: #99ffeb;
+}
+
+form .btn-warning {
+	background-color: #10ffe2;
+	border-color: #10ffe2;
+}
+
+form .btn-warning:hover {
+	background-color: #00fff5;
+	border-color: #00fff5;
+}
+
+.panel-footer {
+	background-color: #ffffd8;
+	border-top: #ffffd8;	
+}
+
+.panel-footer a:hover,
+.panel-footer a:focus {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+.panel-footer a,
+.panel-footer h3,
+.panel-footer p {
+	color: #28ede5;
 }
 
 
