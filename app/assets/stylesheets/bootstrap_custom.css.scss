@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,800,400,700,300);
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 $font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$body-bg: #caf8e4;
+$body-bg: #D8FFEE;
 $navbar-default-bg: #caf8ef;
 $navbar-default-link-color: #1abc9c;
 $navbar-default-link-hover-color: #16a085;
@@ -11,8 +11,8 @@ $navbar-default-brand-color: #1abc9c;
 $navbar-default-brand-hover-color: #16a085;
 
 $brand-primary: #1abc9c;
-$jumbotron-bg: #e0fbf0;
-$navbar-height: 40px;
+$jumbotron-bg: rgba(187, 255, 227, 0.43);
+$navbar-height: 50px;
 
 @import 'bootstrap';
 
