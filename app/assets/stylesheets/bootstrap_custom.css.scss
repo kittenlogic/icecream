@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 $font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-bg: #D8FFEE;
-$navbar-default-bg: #caf8ef;
+$navbar-default-bg: #88ffe8;
 $navbar-default-link-color: #1abc9c;
 $navbar-default-link-hover-color: #16a085;
 
@@ -30,7 +30,7 @@ $navbar-height: 50px;
 }
 
 .navbar-default {
-	border-color: #caf8ef;
+	border-color: #88ffe8;
 }
 
 .navbar-default .navbar-toggle {
@@ -96,6 +96,10 @@ $navbar-height: 50px;
 	border-color: #99ffeb;
 }
 
+.checkbox input[type="checkbox"] {
+	margin-left: 0px;  
+}
+
 form .btn-warning {
 	background-color: #10ffe2;
 	border-color: #10ffe2;
@@ -123,4 +127,14 @@ form .btn-warning:hover {
 	color: #28ede5;
 }
 
+/* masonry panel styles */
 
+.box.panel {
+	border: 0px;
+	background-color: #fff;
+	color: #000;
+}
+
+.box.panel-default {
+	border-color: #fff;
+}
