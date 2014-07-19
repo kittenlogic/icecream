@@ -19,8 +19,26 @@ $navbar-height: 60px;
 
 .alert-papaya {
 	background-color: #fff7ed;
-	border-color: #ff9090;
+	border-color: #fff7ed;
 	color: #ffab91;
+}
+
+.alert-plum {
+	background-color: #ffdffc;
+	border-color: #ffdffc;
+	color: #ee76ff;
+}
+
+.huge-title {
+    font-family: 'Open Sans';
+    font-size: 6em;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1;    
+}
+
+.fat-buffer {
+	margin-bottom: 1em;
 }
 
 .navbar-brand {
@@ -39,7 +57,8 @@ $navbar-height: 60px;
    border-color: #88ffe8; 
 }
 
-.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
    background-color: #88ffe8;
    border-color: #00ffcc;
 }
@@ -50,6 +69,10 @@ $navbar-height: 60px;
 
 .center {
   text-align: center;
+}
+
+.center > .img-responsive {
+	display: inline;
 }
 
 .jumbotron .img-responsive {
@@ -74,6 +97,12 @@ $navbar-height: 60px;
 .panel-default > .panel-heading {
 	background-color: #D7FFF2;
 	border-color: #D7FFF2;
+	color: #5CEED1;
+}
+
+.panel-default > .panel-heading.edit {
+	background-color: #fff;
+	border-color: #fff;
 	color: #5CEED1;
 }
 
@@ -116,24 +145,24 @@ form .btn-warning:hover {
 	border-top: #D7FFF2;	
 }
 
-.panel-footer a:hover,
-.panel-footer a:focus {
-    color: #0ADDD5;
+a,
+a:hover,
+a:focus {
     text-decoration: none;
 }
 
 .panel-footer a,
 .panel-footer h3,
 .panel-footer p {
-	color: #28ede5;
+	
 }
 
 /* masonry panel styles */
 
 .box.panel {
 	border: 0px;
-	background-color: #fff;
-	color: #000;
+	background-color: #5ceed1;
+	color: #fff;
 }
 
 .box.panel-default {
