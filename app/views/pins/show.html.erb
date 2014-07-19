@@ -9,8 +9,13 @@
       <div class="panel-body">
         <p><%= @pin.description %></p>
         <p><strong><%= @pin.user.name if @pin.user %></strong></p>
-
-        <% if current_user && (pin.user == current_user) %>
+        <p>
+        <% @pin.tags.any? %>
+          <% @pin.tags.each do |tag| %>
+          <span class="label label-plum"><%= link_to tag.name %></span>  
+        <% end %>
+        </p>
+        <% if current_user && (@pin.user == current_user) %>
           <%= link_to edit_pin_path(@pin) do %>
 	        <span class="glyphicon glyphicon-edit"></span>
 	        Edit

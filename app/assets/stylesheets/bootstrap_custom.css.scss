@@ -17,6 +17,31 @@ $navbar-height: 60px;
 
 @import 'bootstrap';
 
+.label {
+    line-height: 2.2;    
+}
+
+.label-plum {
+    background-color: #DE5BD4;
+}
+
+.label-plum a {
+    color: #fff; 	
+}
+
+.label-plum a:hover,
+.label-teal a:hover {
+    color: #DE5BD4;
+}
+
+.label-teal {
+	background-color: #fff;
+}
+
+.label-teal a {
+	color: #5ceed1;
+}
+
 .alert-papaya {
 	background-color: #fff7ed;
 	border-color: #fff7ed;

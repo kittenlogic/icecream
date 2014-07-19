@@ -7,6 +7,12 @@
       <div class="panel-body">
         <%= pin.description %><br/>
         <strong><%= pin.user.name if pin.user %></strong>
+        <p>
+        <% pin.tags.any? %>
+          <% pin.tags.each do |tag| %>
+          <span class="label label-teal"><%= link_to tag.name, tag_path(tag.name) %></span>  
+        <% end %>
+        </p>
         <% if current_user && (pin.user == current_user) %>
           <div class="actions">
             <%= link_to edit_pin_path(pin) do %>
