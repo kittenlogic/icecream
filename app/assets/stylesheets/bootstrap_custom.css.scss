@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 $font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $body-bg: #fff;
+$text-color: #5CEED1;
 $navbar-default-bg: #88ffe8;
 $navbar-default-link-color: #1abc9c;
 $navbar-default-link-hover-color: #16a085;
@@ -17,9 +18,9 @@ $navbar-height: 60px;
 @import 'bootstrap';
 
 .alert-papaya {
-	background-color: #f7e9d9;
+	background-color: #fff7ed;
 	border-color: #ff9090;
-	color: #ff8f6c;
+	color: #ffab91;
 }
 
 .navbar-brand {
@@ -63,7 +64,7 @@ $navbar-height: 60px;
 /* sign up and sign in form styles */
 
 .panel {
-	background-color: #e5fff0;
+	background-color: #fff;
 }
 
 .panel-default {
@@ -71,9 +72,9 @@ $navbar-height: 60px;
 }
 
 .panel-default > .panel-heading {
-	background-color: #cbffea;
-	border-color: #cbffea;
-	color: #00ffcc;
+	background-color: #D7FFF2;
+	border-color: #D7FFF2;
+	color: #5CEED1;
 }
 
 .form-group label,
@@ -92,8 +93,8 @@ $navbar-height: 60px;
 }
 
 .form-group .btn-primary {
-	background-color: #99ffeb;
-	border-color: #99ffeb;
+	background-color: #54F1D3;
+	border-color: #54F1D3;
 }
 
 .checkbox input[type="checkbox"] {
@@ -111,13 +112,13 @@ form .btn-warning:hover {
 }
 
 .panel-footer {
-	background-color: #ffffd8;
-	border-top: #ffffd8;	
+	background-color: #D7FFF2;
+	border-top: #D7FFF2;	
 }
 
 .panel-footer a:hover,
 .panel-footer a:focus {
-    color: #00ffcc;
+    color: #0ADDD5;
     text-decoration: none;
 }
 
